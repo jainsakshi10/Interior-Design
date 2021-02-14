@@ -5,8 +5,8 @@
 }
 
 body{
-  /* background-color:   #c69963; */
-  background-image: url(https://image.freepik.com/free-vector/wood-background-realistic_107791-102.jpg?1);
+  /* background-color:   #fff; */
+  background-image: url("img/carousel.jpg");
 }
 
 .title {
@@ -20,16 +20,9 @@ body{
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
   font-style: italic;
-  color: #fff;
+  color: #B28451;
   font-weight: 400;
 }
-/* .title h1 span {
-  display: block;
-  color: #300a0a;
-  font-size: 20px;
-  margin-bottom: 10px;
-
-} */
 
 /*Carousel Gallery*/
 .carousel-gallery {
@@ -46,8 +39,6 @@ body{
   -webkit-box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, 0.2);
-
-
 }
 .carousel-gallery .swiper-slide a:hover .image .overlay {
   opacity: 1;

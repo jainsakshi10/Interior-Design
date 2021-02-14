@@ -1,251 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>nexter &mdash; your home, your freedom</title>
-    </head>
-    <body class="container">
-        <div class="sidebar">
-            <button class="nav-btn"></button>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+  <title>nexter &mdash; your home, your freedom</title>
+</head>
+
+<body class="container">
+  <div class="sidebar">
+    <button class="nav-btn"></button>
+  </div>
+
+  <header class="header">
+    <img src="img/logo.png" alt="Nexter logo" class="header__logo">
+    <h3 class="heading-3">Your own home:</h3>
+    <h1 class="heading-1">Transforming Space : Transforming Lives</h1>
+    <a href="#portfolio"><button class="btn header__btn">View our Designs</button></a>
+
+  </header>
+
+  <div class="realtors">
+    <div class="realtors__list">
+      <!-- <img src="img/realtor-1.jpeg" alt="Realtor 1" class="realtors__img"> -->
+      <div class="realtors__details">
+        <h4 class="heading-4 heading-4--light">Experience</h4>
+        <p class="realtors__sold">6 Years</p>
+      </div>
+
+      <img src="img/residential.jpg" alt="Realtor 2" class="realtors__img">
+      <div class="realtors__details">
+        <h4 class="heading-4 heading-4--light">Residential</h4>
+        <p class="realtors__sold">26 houses designed</p>
+      </div>
+
+      <img src="img/commercial.jpg" alt="Realtor 3" class="realtors__img">
+      <div class="realtors__details">
+        <h4 class="heading-4 heading-4--light">Commercial</h4>
+        <p class="realtors__sold">21 spaces designed</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="features">
+    <h2 class="heading-2 heading-2--dark process">OUR PROCESS</h2>
+    <div class="feature">
+      <svg class="feature__icon">
+        <use xlink:href="img/sprite.svg#icon-global"></use>
+      </svg>
+      <h4 class="heading-4 heading-4--dark">Get in Touch</h4>
+      <p class="feature__text">Start by asking for a free consultation on design, and we will shape your vision according to your budget and requirements.</p>
+    </div>
+    <div class="feature">
+      <svg class="feature__icon">
+        <use xlink:href="img/sprite.svg#icon-trophy"></use>
+      </svg>
+      <h4 class="heading-4 heading-4--dark">Custom Interior Designs</h4>
+      <p class="feature__text">Want specific adjustments with your interior décor? Get detailed designs for every room and adapt them to your taste.</p>
+    </div>
+    <div class="feature">
+      <svg class="feature__icon">
+        <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+      </svg>
+      <h4 class="heading-4 heading-4--dark">Review Your Ideas</h4>
+      <p class="feature__text">Inspect your plan and decisions about interior design, make improvements the way you want and visualize how it looks in 3D.</p>
+    </div>
+    <div class="feature">
+      <svg class="feature__icon">
+        <use xlink:href="img/sprite.svg#icon-key"></use>
+      </svg>
+      <h4 class="heading-4 heading-4--dark">Execution Begins</h4>
+      <p class="feature__text">A team of professional craftsmen will start shaping your dream when you're pleased with our designs and our deals.</p>
+    </div>
+    <div class="feature">
+      <svg class="feature__icon">
+        <use xlink:href="img/sprite.svg#icon-presentation"></use>
+      </svg>
+      <h4 class="heading-4 heading-4--dark">Multiple Quality Checks</h4>
+      <p class="feature__text">We make sure that everything is within your budget while ensuring best quality and long-lasting durability.</p>
+    </div>
+    <div class="feature">
+      <svg class="feature__icon">
+        <use xlink:href="img/sprite.svg#icon-lock"></use>
+      </svg>
+      <h4 class="heading-4 heading-4--dark">Ready to Shift</h4>
+      <p class="feature__text">Enjoy your new home! Also, get featured on our Website and show off your beautiful home to the whole world.</p>
+    </div>
+  </section>
+
+  <div class="story__pictures">
+    <img src="img/story-1.jpeg" alt="Couple with new house" class="story__img--1">
+    <img src="img/story-2.jpeg" alt="New house" class="story__img--2">
+  </div>
+
+  <div class="story__content">
+    <h2 class="heading-2 heading-2--dark mb-md" style="font-size:2.5rem">PIXILO DESIGNS is celebrated for its Thoughtful and Ingenious approach.</h2>
+    <h4 class="heading-4 heading-4--dark mb-md" style="margin-bottom: 1rem">RESIDENTIAL DESIGN</h4>
+    <p class="story__text">
+      We know how to make your home an enjoyable experience. We know how to provide your home with a complete fusion of elegance, luxury and comfort to suit your taste and style of life.
+
+    </p>
+    <h4 class="heading-4 heading-4--dark mb-md" style="margin-bottom: 1rem">COMMERCIAL DESIGN</h4>
+    <p class="story__text">
+      We specialize in the construction of spaces for work, from office space to meeting facilities. We are experienced in architecture and turn-key solutions for the commercial space, whether it is shops, restaurants, living rooms or spas.
+    </p>
+  </div>
+
+  <section class="homes" id="portfolio">
+    <h1 class="heading-2 hd">PORTFOLIO</h1>
+    <div class="home">
+      <img src="img/house-1/img-1.jpg" alt="House 1" class="home__img">
+
+      <h5 class="home__name">Deputy CM's Residence</h5>
+
+      <a class="home__a" href="house_1.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+    <div class="home">
+      <img src="img/house-3/img-3.jpg" alt="House 3" class="home__img">
+
+      <h5 class="home__name">Shreenath's Office</h5>
+
+      <a class="home__a" href="house_3.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+
+
+    <div class="home">
+      <img src="img/house-2/img-3.jpg" alt="House 2" class="home__img">
+      <h5 class="home__name">Jindal Penthouse</h5>
+
+      <a class="home__a" href="house_2.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+
+    <div class="home">
+      <img src="img/house-7/img-3.jpg" alt="House 6" class="home__img">
+
+      <h5 class="home__name">Bishnoi's Apartment</h5>
+
+      <a class="home__a" href="house_7.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+
+
+    <div class="home">
+      <img src="img/house-4/img-4.jpg" alt="House 4" class="home__img">
+
+      <h5 class="home__name">Casa Di Lusso</h5>
+
+      <a class="home__a" href="house_4.html"> <button class="btn home__btn">View Designs</button></a>
+    </div>
+
+    <div class="home">
+      <img src="img/house-9/img-2.jpg" alt="House 6" class="home__img">
+
+      <h5 class="home__name">Chugh's Apartment</h5>
+
+      <a class="home__a" href="house_9.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+
+    <div class="home">
+      <img src="img/house-5/img-6.jpg" alt="House 5" class="home__img">
+
+      <h5 class="home__name">Pharma Office</h5>
+
+      <a class="home__a" href="house_5.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+
+    <div class="home">
+      <img src="img/house-6/img-5.jpg" alt="House 6" class="home__img">
+
+      <h5 class="home__name">Hotel Pearlwood</h5>
+
+      <a class="home__a" href="house_6.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+
+    <div class="home">
+      <img src="img/house-8/img-1.jpg" alt="House 6" class="home__img">
+
+      <h5 class="home__name">House of Tools</h5>
+
+      <a class="home__a" href="house-8.html"><button class="btn home__btn">View Designs</button></a>
+    </div>
+
+  </section>
+
+  <section class="section-features">
+
+    <div class="row">
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem">Explore the world</h3>
+          <p class="feature-box__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+          </p>
         </div>
+      </div>
 
-        <header class="header">
-            <img src="img/logo.png" alt="Nexter logo" class="header__logo">
-            <h3 class="heading-3">Your own home:</h3>
-            <h1 class="heading-1">The ultimate personal freedom</h1>
-            <button class="btn header__btn">View our properties</button>
-            <div class="header__seenon-text">Seen on</div>
-            <div class="header__seenon-logos">
-                <img src="img/logo-bbc.png" alt="Seen on logo 1">
-                <img src="img/logo-forbes.png" alt="Seen on logo 2">
-                <img src="img/logo-techcrunch.png" alt="Seen on logo 3">
-                <img src="img/logo-bi.png" alt="Seen on logo 4">
-            </div>
-        </header>
-
-        <div class="realtors">
-            <h3 class="heading-3">Top 3 Realtors</h3>
-            <div class="realtors__list">
-                <img src="img/realtor-1.jpeg" alt="Realtor 1" class="realtors__img">
-                <div class="realtors__details">
-                    <h4 class="heading-4 heading-4--light">Erik Feinman</h4>
-                    <p class="realtors__sold">245 houses sold</p>
-                </div>
-
-                <img src="img/realtor-2.jpeg" alt="Realtor 2" class="realtors__img">
-                <div class="realtors__details">
-                    <h4 class="heading-4 heading-4--light">Kim Brown</h4>
-                    <p class="realtors__sold">212 houses sold</p>
-                </div>
-
-                <img src="img/realtor-3.jpeg" alt="Realtor 3" class="realtors__img">
-                <div class="realtors__details">
-                    <h4 class="heading-4 heading-4--light">Toby Ramsey</h4>
-                    <p class="realtors__sold">198 houses sold</p>
-                </div>
-            </div>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem">Meet nature</h3>
+          <p class="feature-box__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+          </p>
         </div>
+      </div>
 
-        <section class="features">
-          <h2 class="heading-2 heading-2--dark process">OUR PROCESS</h2>
-          <div class="feature">
-            <svg class="feature__icon">
-              <use xlink:href="img/sprite.svg#icon-global"></use>
-            </svg>
-            <h4 class="heading-4 heading-4--dark">Get in Touch</h4>
-            <p class="feature__text">Start by asking for a free consultation on design, and we will shape your vision according to your budget and requirements.</p>
-          </div>
-          <div class="feature">
-            <svg class="feature__icon">
-              <use xlink:href="img/sprite.svg#icon-trophy"></use>
-            </svg>
-            <h4 class="heading-4 heading-4--dark">Custom Interior Designs</h4>
-            <p class="feature__text">Want specific adjustments with your interior décor? Get detailed designs for every room and adapt them to your taste.</p>
-          </div>
-          <div class="feature">
-            <svg class="feature__icon">
-              <use xlink:href="img/sprite.svg#icon-map-pin"></use>
-            </svg>
-            <h4 class="heading-4 heading-4--dark">Review Your Ideas</h4>
-            <p class="feature__text">Inspect your plan and decisions about interior design, make improvements the way you want and visualize how it looks in 3D.</p>
-          </div>
-          <div class="feature">
-            <svg class="feature__icon">
-              <use xlink:href="img/sprite.svg#icon-key"></use>
-            </svg>
-            <h4 class="heading-4 heading-4--dark">Execution Begins</h4>
-            <p class="feature__text">A team of professional craftsmen will start shaping your dream when you're pleased with our designs and our deals.</p>
-          </div>
-          <div class="feature">
-            <svg class="feature__icon">
-              <use xlink:href="img/sprite.svg#icon-presentation"></use>
-            </svg>
-            <h4 class="heading-4 heading-4--dark">Multiple Quality Checks</h4>
-            <p class="feature__text">We make sure that everything is within your budget while ensuring best quality and long-lasting durability.</p>
-          </div>
-          <div class="feature">
-            <svg class="feature__icon">
-              <use xlink:href="img/sprite.svg#icon-lock"></use>
-            </svg>
-            <h4 class="heading-4 heading-4--dark">Ready to Shift</h4>
-            <p class="feature__text">Enjoy your new home! Also, get featured on the our Website and show off your beautiful home to the whole world</p>
-          </div>
-        </section>
-
-        <div class="story__pictures">
-            <img src="img/story-1.jpeg" alt="Couple with new house" class="story__img--1">
-            <img src="img/story-2.jpeg" alt="New house" class="story__img--2">
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem">Find your way</h3>
+          <p class="feature-box__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+          </p>
         </div>
+      </div>
 
-        <div class="story__content">
-            <h3 class="heading-3 mb-sm">Happy Customers</h3>
-            <h2 class="heading-2 heading-2--dark mb-md">&ldquo;The best decision of our lives&rdquo;</h2>
-            <p class="story__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!
-            </p>
-            <button class="btn">Find your own home</button>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem">Live a healthier life</h3>
+          <p class="feature-box__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+          </p>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <section class="homes">
-          <h1 class="heading-2 hd">PORTFOLIO</h1>
-            <div class="home">
-                <img src="img/house-1/img-1.jpg" alt="House 1" class="home__img">
+  <section class="review__">
+    <h2 class="heading-2 heading-2--dark" style="text-align: center; margin-bottom:6rem; text-transform:uppercase">
+      Happy Customers
+    </h2>
+    <div class="row">
+      <div class="review">
+        <figure class="review__shape">
+          <!-- <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img"> -->
+          <figcaption class="review__caption">Reeta Gupta</figcaption>
+        </figure>
+        <div class="review__text">
+          <h3 style="margin-bottom: 1.5rem">Pixilo is an outstanding quality focused design firm </h3>
+          <p>
+            Ankush and his team were extremely responsive throughout the project, their creativity coupled with utmost professionalism, responsibility and integrity reflects in the beautiful home they've designed for us. They help you maintain your
+            house and are most accessible at any point. We look forward to working with them again.
+          </p>
+        </div>
+      </div>
+    </div>
 
-                <h5 class="home__name">Deputy CM's Residence</h5>
+    <div class="row">
+      <div class="review">
+        <figure class="review__shape">
+          <!-- <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img"> -->
+          <figcaption class="review__caption">Gauri Srivastava</figcaption>
+        </figure>
+        <div class="review__text">
+          <h3 style="margin-bottom: 1.5rem">It was an absolute pleasure to work with Pixilo Design</h3>
+          <p>
+            Concepts are very neat, clean and functional, and most of all, beautifully asthetic and up to date. Their attention to detail and quality, and their extremely professional work ethic are what stood out in their execution and made it very
+            easy for us. Overall, we had an extermely positive experience, and we look forward to working with Pixilo for all our future interior design requirements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                <a class="home__a" href="house_1.html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-            <div class="home">
-                <img src="img/house-3/img-3.jpg" alt="House 3" class="home__img">
-
-                <h5 class="home__name">Shreenath's Office</h5>
-
-                <a class="home__a" href="house_3.html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-
-
-            <div class="home">
-                <img src="img/house-2/img-3.jpg" alt="House 2" class="home__img">
-                <h5 class="home__name">Jindal Penthouse</h5>
-
-                <a class="home__a" href="house_2.html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-
-            <div class="home">
-                <img src="img/house-7/img-3.jpg" alt="House 6" class="home__img">
-
-                <h5 class="home__name">Bishnoi's Apartment</h5>
-
-                <a class="home__a" href="house_7.html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-
-
-            <div class="home">
-                <img src="img/house-4/img-4.jpg" alt="House 4" class="home__img">
-
-                <h5 class="home__name">Casa Di Lusso</h5>
-
-                <a class="home__a" href="house_4.html"> <button class="btn home__btn">View Designs</button></a>
-            </div>
-
-            <div class="home">
-                <img src="img/house-9/img-2.jpg" alt="House 6" class="home__img">
-
-                <h5 class="home__name">Chugh's Apartment</h5>
-
-                <a class="home__a" href="house_9.html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-
-            <div class="home">
-                <img src="img/house-5/img-6.jpg" alt="House 5" class="home__img">
-
-                <h5 class="home__name">Pharma Office</h5>
-
-                <a class="home__a" href="house_5 html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-
-            <div class="home">
-                <img src="img/house-6/img-5.jpg" alt="House 6" class="home__img">
-
-                <h5 class="home__name">Hotel Pearlwood</h5>
-
-                <a class="home__a" href="house_6.html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-
-            <div class="home">
-                <img src="img/house-8/img-1.jpg" alt="House 6" class="home__img">
-
-                <h5 class="home__name">House of Tools</h5>
-
-                <a class="home__a" href="house-8.html"><button class="btn home__btn">View Designs</button></a>
-            </div>
-
-        </section>
-        <section class="testimonial">
-          <h1 class="heading-2 hd">TESTIMONIALS</h1>
-          <div class="home">
-              <img src="img/house-4.jpeg" alt="House 4" class="home__img">
-
-              <h5 class="home__name">Large Rustical Villa</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
-
-          </div>
-
-          <div class="home">
-              <img src="img/house-5.jpeg" alt="House 5" class="home__img">
-
-              <h5 class="home__name">Majestic Palace House</h5>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
-          </div>
-
-          <div class="home">
-              <img src="img/house-6.jpeg" alt="House 6" class="home__img">
-              <h5 class="home__name">Modern Familiy Apartment</h5>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
-
-          </div>
-
-    </section>
+  <section class="gallery">
+    <figure class="gallery__item gallery__item--1"><img src="img/gal/img-1.jpg" alt="Gallery image 1" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--2"><img src="img/gal/img-2.jpg" alt="Gallery image 2" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--3"><img src="img/gal/img-3.jpg" alt="Gallery image 3" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--4"><img src="img/gal/img-4.jpg" alt="Gallery image 4" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--5"><img src="img/gal/img-5.jpg" alt="Gallery image 5" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--6"><img src="img/gal/img-6.jpg" alt="Gallery image 6" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--7"><img src="img/gal/img-7.jpg" alt="Gallery image 7" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--8"><img src="img/gal/img-8.jpg" alt="Gallery image 8" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--9"><img src="img/gal/img-9.jpg" alt="Gallery image 9" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--10"><img src="img/gal/img-10.jpg" alt="Gallery image 10" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--11"><img src="img/gal/img-11.jpg" alt="Gallery image 11" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--12"><img src="img/gal/img-12.jpg" alt="Gallery image 12" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--13"><img src="img/gal/img-13.jpg" alt="Gallery image 13" class="gallery__img"></figure>
+    <figure class="gallery__item gallery__item--14"><img src="img/gal/img-14.jpg" alt="Gallery image 14" class="gallery__img"></figure>
 
 
-        <section class="gallery">
-            <figure class="gallery__item gallery__item--1"><img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--2"><img src="img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--3"><img src="img/gal-3.jpeg" alt="Gallery image 3" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--4"><img src="img/gal-4.jpeg" alt="Gallery image 4" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--5"><img src="img/gal-5.jpeg" alt="Gallery image 5" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--6"><img src="img/gal-6.jpeg" alt="Gallery image 6" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--7"><img src="img/gal-7.jpeg" alt="Gallery image 7" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--8"><img src="img/gal-8.jpeg" alt="Gallery image 8" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--9"><img src="img/gal-9.jpeg" alt="Gallery image 9" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--10"><img src="img/gal-10.jpeg" alt="Gallery image 10" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--11"><img src="img/gal-11.jpeg" alt="Gallery image 11" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--12"><img src="img/gal-12.jpeg" alt="Gallery image 12" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--13"><img src="img/gal-13.jpeg" alt="Gallery image 13" class="gallery__img"></figure>
-            <figure class="gallery__item gallery__item--14"><img src="img/gal-14.jpeg" alt="Gallery image 14" class="gallery__img"></figure>
+  </section>
 
+  <footer class="footer">
+    <ul class="nav">
+      <li class="nav__item"><a href="#" class="nav__link">Find your dream home</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">Request proposal</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">Download home planner</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">Submit your property</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">Come work with us!</a></li>
+    </ul>
+    <p class="copyright">
+      &copy; Copyright 2017 by Jonas Schmedtmann. Feel free to use this project for your own purposes. This does NOT apply if you plan to produce your own course or tutorials based on this project.
+    </p>
+  </footer>
+</body>
 
-        </section>
-
-        <footer class="footer">
-            <ul class="nav">
-                    <li class="nav__item"><a href="#" class="nav__link">Find your dream home</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Request proposal</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Download home planner</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Submit your property</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Come work with us!</a></li>
-            </ul>
-            <p class="copyright">
-                &copy; Copyright 2017 by Jonas Schmedtmann. Feel free to use this project for your own purposes. This does NOT apply if you plan to produce your own course or tutorials based on this project.
-            </p>
-        </footer>
-    </body>
 </html>

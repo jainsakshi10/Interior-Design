@@ -20,11 +20,11 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 80vh min-content 40vw repeat(4, min-content);
+  grid-template-rows: 80vh min-content 40vw repeat(6, min-content);
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
   @media only screen and (max-width: 62.5em) {
     .container {
-      grid-template-rows: 6rem 80vh min-content 40vw repeat(4, min-content);
+      grid-template-rows: 6rem 80vh min-content 40vw repeat(6, min-content);
       grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; } }
   @media only screen and (max-width: 50em) {
     .container {
@@ -200,7 +200,8 @@ body {
   .realtors__img {
     width: 7rem;
     border-radius: 50%;
-    display: block; }
+    display: block;
+    height: 7rem; }
   .realtors__sold {
     text-transform: uppercase;
     color: #aaa;
@@ -436,15 +437,90 @@ body {
   text-align: center;
   width: 70%; }
 
-.testimonial {
-  grid-column: center-start / center-end;
-  margin-bottom: 15rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 7rem;
-  justify-content: center;
-  align-items: center; }
+.row {
+  margin-bottom: 8rem; }
 
-p {
-  grid-column: 1/-1;
-  font-size: 1.8rem; }
+.review__ {
+  grid-column: center-start/center-end; }
+
+.review {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3);
+  background-color: #f9f7f6;
+  border-radius: 3px;
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+  @media only screen and (max-width: 56.25em) {
+    .review {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .review {
+      transform: skewX(0); } }
+  .review__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    transform: translateX(-3rem) skewX(12deg);
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%; }
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      .review__shape {
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
+        border-radius: none; } }
+    @media only screen and (max-width: 37.5em) {
+      .review__shape {
+        transform: translateX(-3rem) skewX(0); } }
+  .review__img {
+    height: 100%;
+    transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all .5s; }
+  .review__text {
+    transform: skewX(12deg); }
+    @media only screen and (max-width: 37.5em) {
+      .review__text {
+        transform: skewX(0); } }
+  .review__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: #54483A;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+    backface-visibility: hidden; }
+  .review:hover .review__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%); }
+  .review:hover .review__img {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%); }
+
+.section-features {
+  grid-column: center-start/center-end; }
+
+.feature-box {
+  background-color: #f9f7f6;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; }
+  @media only screen and (max-width: 56.25em) {
+    .feature-box {
+      padding: 2rem; } }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
