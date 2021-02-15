@@ -14,7 +14,12 @@
 }
 
 .section-features {
-  grid-column: center-start/center-end;
+  grid-column: full-start/full-end;
+  width: 100%;
+  padding-top: 12rem;
+  // padding: 12rem 4rem;
+  // margin-bottom: 12rem;
+  // background-color: $color-primary;
 }
 .feature-box {
     background-color: $color-grey-light-1;
@@ -22,8 +27,12 @@
     padding: 2.5rem;
     text-align: center;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(#000, .15);
+    box-shadow: 0 1.5rem 4rem rgba(#000, .2);
     transition: transform .3s;
+
+    &__text{
+      font-size: 1.6rem;
+    }
 
     @include respond(tab-port) {
         padding: 2rem;

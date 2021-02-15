@@ -11,33 +11,92 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-gap: 2rem;
     align-items: center;
+    justify-content: center;
 
-    &__link:link,
-    &__link:visited {
-        font-size: 1.4rem;
+    &__item {
+        font-size: 1.8rem;
         color: #fff;
         text-decoration: none;
         font-family: $font-display;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         text-align: center;
         padding: 1.5rem;
-        display: block;
+        display: inline-block;
         transition: all .2s;
     }
 
-    &__link:hover,
-    &__link:active {
-        background-color: rgba(#fff, .05);
-        transform: translateY(-3px);
+    // &__icons{
+    //   padding-left: 100px;
+    //   padding-right: 100px;
+    // }
+
+    &__icons{
+      text-decoration: none;
+      list-style: none;
+      padding: 2rem;
+      width: 350px;
+      display:inline-block;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      // margin: 0 auto;
     }
+  }
+
+  .fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: $color-secondary;
 }
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: $color-secondary;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: $color-secondary;
+}
+.fa-instagram:hover {
+    background-color:#5851DB;
+}
+
+
 
 .copyright {
     font-size: 1.4rem;
-    color: $color-grey-light-2;
+    color: #fff;
     margin-top: 6rem;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     width: 70%;
+}
+
+.footer-social-icons{
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.social-icon{
+  color: #fff;
 }
