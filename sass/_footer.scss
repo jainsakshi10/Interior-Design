@@ -12,6 +12,9 @@
     grid-gap: 2rem;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-columns:  minmax(15rem, 1fr);
+    }
 
     &__item {
         font-size: 1.8rem;
@@ -23,6 +26,8 @@
         padding: 1.5rem;
         display: inline-block;
         transition: all .2s;
+
+
     }
 
     // &__icons{

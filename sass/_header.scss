@@ -66,9 +66,22 @@
 }
 
 .pix{
-  font-family:'Merriweather', serif;
+font-family: 'Saira Stencil One', cursive;
   color: $color-primary;
   text-align: center;
   font-size: 3rem;
   font-weight: 400;
+  text-transform: lowercase;
+}
+
+.head{
+  @media only screen and (max-width: $bp-medium) {
+      font-size: 2rem;
+  }
+}
+
+.subhead{
+  @media only screen and (max-width: $bp-medium) {
+      font-size: 3rem;
+  }
 }
