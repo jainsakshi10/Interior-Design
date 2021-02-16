@@ -219,6 +219,28 @@ body {
         width: 2.5rem;
         height: 2.5rem; } }
 
+.tooltip {
+  visibility: hidden;
+  width: 80px;
+  background-color: #101d2c;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 85%; }
+  @media only screen and (max-width: 50em) {
+    .tooltip {
+      left: -10%;
+      width: 55px;
+      font-size: 8px;
+      top: 40px; } }
+
+.side-nav__item:hover .tooltip {
+  visibility: visible; }
+
 .header {
   background-color: #54483A;
   grid-column: full-start / col-end 6;
@@ -272,9 +294,8 @@ body {
   font-family: 'Saira Stencil One', cursive;
   color: #c69963;
   text-align: center;
-  font-size: 3rem;
-  font-weight: 400;
-  text-transform: lowercase; }
+  font-size: 4rem;
+  font-weight: 400; }
 
 @media only screen and (max-width: 50em) {
   .head {
