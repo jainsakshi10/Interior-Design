@@ -756,7 +756,7 @@ body {
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     .composition__photo--p1 {
       left: 5rem;
-      top: 12rem; }
+      top: 10rem; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p1 {
           top: 0;
@@ -773,7 +773,7 @@ body {
           height: 100px; } }
     .composition__photo--p2 {
       right: 0;
-      top: 16rem; }
+      top: 14rem; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p2 {
           top: -1rem;
@@ -789,8 +789,8 @@ body {
           left: 6%; } }
     .composition__photo--p3 {
       left: 20%;
-      top: 24rem;
-      height: 300px; }
+      top: 22rem;
+      height: 250px; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p3 {
           top: 1rem;
