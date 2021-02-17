@@ -4,6 +4,8 @@
     padding: 8rem;
 }
 
+
+
 .nav {
     list-style: none;
 
@@ -26,6 +28,9 @@
         padding: 1.5rem;
         display: inline-block;
         transition: all .2s;
+        @media only screen and (max-width: $bp-medium) {
+            margin-top: 3rem;
+        }
 
 
     }
@@ -104,4 +109,10 @@
 
 .social-icon{
   color: #fff;
+}
+
+.ema{
+  @media only screen and (max-width: $bp-medium) {
+      margin-top: -1rem;
+  }
 }
