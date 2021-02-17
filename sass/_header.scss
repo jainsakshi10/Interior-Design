@@ -71,16 +71,19 @@ font-family: 'Saira Stencil One', cursive;
   text-align: center;
   font-size: 4rem;
   font-weight: 400;
+  margin-bottom: 3rem;
 }
 
 .head{
   @media only screen and (max-width: $bp-medium) {
       font-size: 2rem;
+      transform: translateY(-5rem);
   }
 }
 
 .subhead{
   @media only screen and (max-width: $bp-medium) {
       font-size: 3rem;
+      margin-bottom: 3rem;
   }
 }

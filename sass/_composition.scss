@@ -37,7 +37,8 @@
                 left: 15%;
             }
             @media only screen and (max-width: $bp-small) {
-                width: 110px;
+                width: 120px;
+                height: 200px;
                 left: 10%;
                 height: 100px;
             }
@@ -59,7 +60,7 @@
                 left: 15%;
             }
             @media only screen and (max-width: $bp-small) {
-                width: 110px;
+                width: 130px;
                 left: 6%;
             }
 
@@ -81,8 +82,8 @@
                 height: 150px;
             }
             @media only screen and (max-width: $bp-small) {
-              width: 100px;
-              height: 100px;
+              width: 130px;
+              height: 110px;
               right: 4%;
               left: -1%;
             }
