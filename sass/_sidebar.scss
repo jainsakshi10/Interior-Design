@@ -121,7 +121,7 @@
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 100;
   top: 30px;
   left: 85%;
   @media only screen and (max-width: $bp-medium) {
@@ -130,6 +130,7 @@
       font-size: 8px;
       top: 40px;
   }
+
 }
 
 .side-nav__item:hover .tooltip{

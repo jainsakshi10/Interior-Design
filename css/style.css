@@ -228,7 +228,7 @@ body {
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 100;
   top: 30px;
   left: 85%; }
   @media only screen and (max-width: 50em) {
@@ -763,8 +763,9 @@ body {
           left: 15%; } }
       @media only screen and (max-width: 37.5em) {
         .composition__photo--p1 {
-          width: 100px;
-          left: 15%; } }
+          width: 110px;
+          left: 10%;
+          height: 100px; } }
     .composition__photo--p2 {
       right: 0;
       top: 16rem; }
@@ -779,11 +780,12 @@ body {
           left: 15%; } }
       @media only screen and (max-width: 37.5em) {
         .composition__photo--p2 {
-          width: 100px;
-          left: 10%; } }
+          width: 110px;
+          left: 6%; } }
     .composition__photo--p3 {
       left: 20%;
-      top: 24rem; }
+      top: 24rem;
+      height: 300px; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p3 {
           top: 1rem;
@@ -792,11 +794,14 @@ body {
       @media only screen and (max-width: 50em) and (min-width: 37.5em) {
         .composition__photo--p3 {
           width: 150px;
-          left: 15%; } }
+          left: 15%;
+          height: 150px; } }
       @media only screen and (max-width: 37.5em) {
         .composition__photo--p3 {
           width: 100px;
-          left: 5%; } }
+          height: 100px;
+          right: 4%;
+          left: -1%; } }
     .composition__photo:hover {
       outline: 1.5rem solid #c69963;
       transform: scale(1.05) translateY(-0.5rem);

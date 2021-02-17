@@ -37,8 +37,9 @@
                 left: 15%;
             }
             @media only screen and (max-width: $bp-small) {
-                width: 120px;
-                left: 5%;
+                width: 110px;
+                left: 10%;
+                height: 100px;
             }
 
 
@@ -59,7 +60,7 @@
             }
             @media only screen and (max-width: $bp-small) {
                 width: 110px;
-                left: 2%;
+                left: 6%;
             }
 
         }
@@ -67,6 +68,7 @@
         &--p3 {
             left: 20%;
             top: 24rem;
+            height: 300px;
 
             @include respond(tab-port)  {
                 top: 1rem;
@@ -76,9 +78,13 @@
             @media only screen and (max-width: $bp-medium) and (min-width: $bp-small) {
                 width: 150px;
                 left: 15%;
+                height: 150px;
             }
             @media only screen and (max-width: $bp-small) {
-              width: 120px;
+              width: 100px;
+              height: 100px;
+              right: 4%;
+              left: -1%;
             }
 
         }
