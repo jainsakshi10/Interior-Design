@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- <style>
+      .unselectable {
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        /* color: #cc0000; */
+      } -->
 
-<head>
+<head onmousedown="return false" onselectstart="return false">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,10 +24,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
-  <title>Pixilo Designs &mdash; We are much more than interior designers</title>
+  <title>Pixilo Design &mdash; We are much more than interior designers</title>
+  <link rel="icon" href="img/logo.jpg">
 </head>
 <body class="container">
+   <!-- onmousedown="return false" onselectstart="return false" oncontextmenu="return false"  -->
 
       <div class="sidebar">
         <nav class="sidebar">
@@ -33,7 +43,7 @@
                           </a>
                       </li>
                       <li class="side-nav__item">
-                        <span class="tooltip"> Process</span>
+                        <span class="tooltip">Our Process</span>
                           <a href="#features" class="side-nav__link">
                               <svg class="side-nav__icon">
                                   <use xlink:href="img/sprite.svg#icon-process"></use>
@@ -102,7 +112,7 @@
 
 
   <header class="header" id="header">
-    <h1 class=" pix"> Pixilo Design</h1>
+    <h1 class=" pix" style="text-transform:uppercase"> Pixilo Design</h1>
     <h3 class="heading-3 head">We are much more than <span class="sub">interior designers</span></h3>
     <h1 class="heading-1 subhead">Transforming Space : Transforming Lives</h1>
     <a href="#portfolio"><button class="btn header__btn">View our Designs</button></a>
@@ -117,7 +127,7 @@
         <p class="realtors__sold">6 Years</p>
       </div>
 
-      <img src="img/residential.jpg" alt="Realtor 2" class="realtors__img">
+      <img src="img/hero-1.jpg" alt="Realtor 2" class="realtors__img">
       <div class="realtors__details">
         <h4 class="heading-4 heading-4--light">Residential</h4>
         <p class="realtors__sold">26 houses designed</p>
@@ -131,8 +141,8 @@
     </div>
   </div>
 
-  <section class="features" id="features" style="margin-top: 3rem">
-    <h2 class="heading-2 heading-2--dark process" style="margin-top: 8.5rem">OUR PROCESS</h2>
+  <section class="features" id="features" style="margin-top: 2rem">
+    <h2 class="heading-2 heading-2--dark process" style="margin-top: 10rem">OUR PROCESS</h2>
     <div class="feature">
       <svg class="feature__icon">
         <use xlink:href="img/sprite.svg#icon-global"></use>
@@ -178,12 +188,12 @@
   </section>
 
   <div class="story__pictures">
-    <img src="img/story-1.jpeg" alt="Couple with new house" class="story__img--1">
-    <img src="img/story-2.jpeg" alt="New house" class="story__img--2">
+    <img src="img/gal/img-5.jpg" alt="Couple with new house" class="story__img--1">
+    <img src="img/story-2.jpg" alt="New house" class="story__img--2">
   </div>
 
   <div class="story__content" id="aboutus">
-      <h1 class="heading-2 heading-2--dark" style="margin-bottom: 3.5rem; margin-top: 2rem">ABOUT US</h1>
+      <h1 class="heading-2 heading-2--dark" style="margin-bottom: 3.5rem; margin-top: 3.5rem">ABOUT US</h1>
     <!-- <h2 class="heading-2 heading-2--dark mb-md" style="font-size:1.5rem; margin-top: 3rem">PIXILO DESIGNS is celebrated for its Thoughtful and Ingenious approach.</h2> -->
     <h4 class="heading-4 heading-4--dark mb-md" style="margin-bottom: 1rem">Residential Design</h4>
     <p class="story__text" style="margin-bottom: 3rem">
@@ -196,8 +206,8 @@
     </p>
   </div>
 
-  <section class="section-features"  id="whyus" style="margin-top: -2rem">
-    <h1 class="heading-2 heading-2--dark" style="text-align: center; margin-bottom: 8rem">WHY US?</h1>
+  <section class="section-features"  id="whyus">
+    <h1 class="heading-2 heading-2--dark" style="text-align: center; margin-bottom: 8rem; margin-top:-2rem">WHY US?</h1>
     <div class="row">
       <div class="col-1-of-4">
         <div class="feature-box">
@@ -230,15 +240,15 @@
         <div class="feature-box">
           <h3 style="font-size: 2rem; margin-bottom: 1.5rem">ONE STOP</h3>
           <p class="feature-box__text">
-            PixiloDesign is a one-stop-shop for every commercial or residential interior design requirement. Pixilo is turnkey. This means that we are a complete interior design solution provider, for both design and execution.
+            Pixilo Design is a one-stop-shop for every commercial or residential interior design. Pixilo is turnkey. This means that we are a complete interior design solution provider, for both design and execution.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="homes" id="portfolio" style="margin-top: 4rem">
-    <h1 class="heading-2 heading-2--dark hd" style="margin-top: 7rem">PORTFOLIO</h1>
+  <section class="homes" id="portfolio" style="margin-top: 2rem">
+    <h1 class="heading-2 heading-2--dark hd" style="margin-top: 10rem">PORTFOLIO</h1>
     <div class="home">
       <img src="img/house-1/img-1.jpg" alt="House 1" class="home__img">
 
@@ -315,14 +325,14 @@
 
 
 
-  <section class="review__" id="testimonial" style="margin-top: -10rem">
-    <h2 class="heading-2 heading-2--dark" style="text-align: center; margin-bottom:6rem; text-transform:uppercase; margin-top: 8.5rem">
+  <section class="review__" id="testimonial" style="margin-top: -12rem">
+    <h2 class="heading-2 heading-2--dark" style="text-align: center; margin-bottom:6rem; text-transform:uppercase; margin-top: 10rem">
       Testimonials
     </h2>
     <div class="row">
       <div class="review">
         <figure class="review__shape">
-          <img src="img/Photo-1.jpg" alt="Person on a tour" class="story__img" style="height: 150px; width: 150px">
+          <img src="img/Photo-1.jpg" alt="Person on a tour" class="review__img" style="height: 150px; width: 150px">
           <figcaption class="review__caption">Reeta Gupta</figcaption>
         </figure>
         <div class="review__text">
@@ -338,7 +348,7 @@
     <div class="row" style="margin-bottom: 10rem">
       <div class="review">
         <figure class="review__shape">
-          <img src="img/Photo-2.jpeg" alt="Person on a tour" class="story__img" style="height: 150px; width: 150px">
+          <img src="img/Photo-2.jpeg" alt="Person on a tour" class="review__img" style="height: 150px; width: 150px">
           <figcaption class="review__caption">Gauri Srivastava</figcaption>
         </figure>
         <div class="review__text">
@@ -352,7 +362,7 @@
     </div>
   </section>
 
-  <section class="gallery" id="gallery" >
+  <section class="gallery" id="gallery">
     <figure class="gallery__item gallery__item--1"><img src="img/gal/img-1.jpg" alt="Gallery image 1" class="gallery__img"></figure>
     <figure class="gallery__item gallery__item--2"><img src="img/gal/img-2.jpg" alt="Gallery image 2" class="gallery__img"></figure>
     <figure class="gallery__item gallery__item--3"><img src="img/gal/img-3.jpg" alt="Gallery image 3" class="gallery__img"></figure>
@@ -373,8 +383,8 @@
 
   <footer class="footer" id="contactus">
     <ul class="nav">
-      <li class="nav__item" style="transform: translateY(1.2rem); ">ADDRESS <br><br><span style="font-size:1.5rem">Shop No 22, Shiva Market, <br>Sector 11, Panchkula, <br>Haryana 134113</span> </li>
-      <li class="nav__item" style="">BUSINESS HOURS <br> <br> <span style="font-size:1.5rem">Monday to Saturday <br> 11am - 7pm </span></li>
+      <li class="nav__item" style="transform: translateY(1.4rem); ">ADDRESS <br><br><span style="font-size:1.5rem">Shop No 22, Shiva Market, <br>Sector 11, Panchkula, <br>Haryana 134113</span> </li>
+      <li class="nav__item" style="transform: translateY(1.4rem);">BUSINESS HOURS <br> <br> <span style="font-size:1.5rem">Monday to Saturday <br> 11am - 7pm <br> Meeting by appointment only</span></li>
       <li class="nav__item" style="transform: translateY(-1.25rem);">PHONE NUMBERS <br> <br><span style="font-size:1.5rem">+91 88269 86977</span></li>
       <li class="nav__item" style="">EMAIL <br> <br><span style="font-size:1.5rem">pixilodesign@gmail.com <br> <br> </span></li>
     </ul>
@@ -389,5 +399,5 @@
 
   </footer>
 </body>
-
+  <!-- </style> -->
 </html>
