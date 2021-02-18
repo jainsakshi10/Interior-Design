@@ -160,7 +160,7 @@ body {
   list-style: none;
   margin-top: 3.5rem;
   background-color: #101d2c;
-  z-index: 30;
+  z-index: 200;
   position: fixed; }
   @media only screen and (max-width: 50em) {
     .side-nav {
@@ -307,7 +307,9 @@ body {
 @media only screen and (max-width: 50em) {
   .subhead {
     font-size: 3rem;
-    margin-bottom: 3rem; } }
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+    line-height: 4.5rem; } }
 
 .realtors {
   background-color: #101d2c;
