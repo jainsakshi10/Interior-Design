@@ -25,7 +25,7 @@
       <ul class="side-nav">
         <li class="side-nav__item  nav1">
           <span class="tooltip">Home</span>
-          <a href="#header" class="side-nav__link">
+          <a href="#home" class="side-nav__link">
             <svg class="side-nav__icon">
               <use xlink:href="img/sprite.svg#icon-homepage"></use>
             </svg>
@@ -34,7 +34,7 @@
         </li>
         <li class="side-nav__item nav2">
           <span class="tooltip">Our Process</span>
-          <a href="#features" class="side-nav__link">
+          <a href="#process" class="side-nav__link">
             <svg class="side-nav__icon">
               <use xlink:href="img/sprite.svg#icon-process"></use>
             </svg>
@@ -101,7 +101,7 @@
   </div>
 
 
-  <header class="header" id="header">
+  <header class="header" id="home">
     <h1 class=" pix" style="text-transform:uppercase; margin-top: 4rem"> Pixilo Design</h1>
     <h3 class="heading-3 head">We are much more than <span class="sub">interior designers</span></h3>
     <h1 class="heading-1 subhead">Transforming Space : <span class="hp">Transforming Lives</span></h1>
@@ -131,7 +131,7 @@
     </div>
   </div>
 
-  <section class="features" id="features" style="margin-top: 2rem">
+  <section class="features" id="process" style="margin-top: 2rem">
     <h2 class="heading-2 heading-2--dark process" style="margin-top: 10rem">OUR PROCESS</h2>
     <div class="feature">
       <svg class="feature__icon">
@@ -251,14 +251,14 @@
 
       <h5 class="home__name">Deputy CM's Residence</h5>
 
-      <a class="home__a" href="house_1.html">View Designs</a>
+      <a class="home__a" href="Deputy_CM_Residence.html">View Designs</a>
     </div>
     <div class="home">
       <img src="img/house-3/img-3.jpg" alt="House 3" class="home__img">
 
       <h5 class="home__name">Shreenath's Office</h5>
 
-      <a class="home__a" href="house_3.html">View Designs</a>
+      <a class="home__a" href="Shreenath_Office.html">View Designs</a>
     </div>
 
 
@@ -266,7 +266,7 @@
       <img src="img/house-2/img-3.jpg" alt="House 2" class="home__img">
       <h5 class="home__name">Jindal Penthouse</h5>
 
-      <a class="home__a" href="house_2.html">View Designs</a>
+      <a class="home__a" href="Jindal_Penthouse.html">View Designs</a>
     </div>
 
     <div class="home">
@@ -274,7 +274,7 @@
 
       <h5 class="home__name">Bishnoi's Apartment</h5>
 
-      <a class="home__a" href="house_7.html">View Designs</a>
+      <a class="home__a" href="Bishnoi_Apartment.html">View Designs</a>
     </div>
 
 
@@ -283,7 +283,7 @@
 
       <h5 class="home__name">Casa Di Lusso Care Home</h5>
 
-      <a class="home__a" href="house_4.html"> View Designs</a>
+      <a class="home__a" href="Casa_Di_Lusso.html"> View Designs</a>
     </div>
 
     <div class="home">
@@ -291,7 +291,7 @@
 
       <h5 class="home__name">Chugh's Apartment</h5>
 
-      <a class="home__a" href="house_9.html">View Designs</a>
+      <a class="home__a" href="Chugh_Apartment.html">View Designs</a>
     </div>
 
     <div class="home">
@@ -299,7 +299,7 @@
 
       <h5 class="home__name">Pharma Office</h5>
 
-      <a class="home__a" href="house_5.html">View Designs</a>
+      <a class="home__a" href="Pharma_Office.html">View Designs</a>
     </div>
 
     <div class="home">
@@ -307,7 +307,7 @@
 
       <h5 class="home__name">Hotel Pearlwood</h5>
 
-      <a class="home__a" href="house_6.html">View Designs</a>
+      <a class="home__a" href="Hotel_Pearlwood.html">View Designs</a>
     </div>
 
     <div class="home">
@@ -315,7 +315,7 @@
 
       <h5 class="home__name">House of Tools</h5>
 
-      <a class="home__a" href="house_8.html">View Designs</a>
+      <a class="home__a" href="House_Of_Tools.html">View Designs</a>
     </div>
 
   </section>
@@ -395,6 +395,12 @@
     </div>
 
   </footer>
+  <script>
+function myFunction(sectionid) {
+  var x = document.title;
+  document.getElementById(sectionid).innerHTML = x;
+}
+</script>
 </body>
 <!-- </style> -->
 
